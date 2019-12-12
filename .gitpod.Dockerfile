@@ -9,3 +9,5 @@ RUN apt-get update \
    && apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
 
 RUN composer global require laravel/installer
+
+RUN chmod 0777 ~
