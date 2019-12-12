@@ -10,4 +10,4 @@ RUN apt-get update \
 
 RUN composer global require laravel/installer
 
-RUN chmod 0777 ~
+RUN chmod 0777 -R ~
